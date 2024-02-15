@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "studybot"
+version = "0.1.0"
+description = ""
+authors = ["LilDrugHill <smookigrow@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = "^3.3.0"
+requests = "^2.31.0"
+bs4 = "^0.0.2"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
